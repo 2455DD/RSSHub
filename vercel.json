@@ -2,6 +2,9 @@
     "$schema": "https://openapi.vercel.sh/vercel.json",
     "framework": "hono",
     "outputDirectory": "src",
+    "env": {
+        "NODE_OPTIONS": "--experimental-require-module"
+    },
     "rewrites": [
         {
             "source": "/favicon.ico",
